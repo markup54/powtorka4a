@@ -8,6 +8,16 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#008080"
+        android:text="Rejestruj konto"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Podaj login" />
@@ -38,7 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="przepisz"
-        android:text="Button" />
+        android:text="Button"
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -47,11 +58,10 @@
         android:ems="10"
         android:inputType="textEmailAddress" />
 
-    <EditText
-        android:id="@+id/editTextPhone"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone" />
+        android:text="Button" />
 
 </LinearLayout>

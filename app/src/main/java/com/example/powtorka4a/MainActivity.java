@@ -24,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public void przepisz(View view) {
         String wpisanyLogin = loginEditText.getText().toString();
         Toast.makeText(this,wpisanyLogin,Toast.LENGTH_SHORT ).show();
+
     }
 }
